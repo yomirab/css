@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <style>
+      .navegacion li {
+        list-style: none;
+        font: bold 14px verdana;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="color: #148f77; text-align: center; font-size: 80pt;">
+      Formacion en CSS
+    </h2>
+
+    <section style="block-size: 15px; line-height: 200%;">
+      <div>
+        <nav class="navegacion">
+          <ul>
+            <li>Princial</li>
+            <li>Ayuda</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="bloque1">
+        <h1>Que es css</h1>
+        <p>
+          Como HTML, CSS no es realmente un lenguaje de programación. Es un
+          lenguaje de hojas de estilo, es decir, te permite aplicar estilos de
+          manera selectiva a elementos en documentos HTML.
+        </p>
+
+        <h1>Sintaxis</h1>
+        <ul>
+          <li>
+            Cada una de las reglas (aparte del selector) deben estar encapsulada
+            entre corchetes ({}).
+          </li>
+          <li>
+            Dentro de cada declaración, debes usar los dos puntos (:) para
+            separar la propiedad de su valor.
+          </li>
+          <li>
+            Dentro de cada regla, debes usar el punto y coma (;) para separar
+            una declaración de la siguiente.
+          </li>
+        </ul>
+
+        <h1>Estilos separados por un fichero</h1>
+        <p>
+          Pero lo ideal es tener el archivo <b>css</b> por separado, así podemos
+          tenerlo de manera independiente, referenciarlo en todos los HTML que
+          queramos usarlo y, haciendo los cambios en un solo archivo, este se
+          replica en todos los HTML que lo estén llamando.
+        </p>
+        <p>
+          Para esto, abrimos igualmente un archivo en nuestro editor de texto y
+          le damos cualquier nombre con extension
+        </p>
+
+        <h1>Ventajas</h1>
+        <ul>
+          <li>
+            Más fácil de usar: El CSS permite guardar y almacenar los estilos
+            por separado del contenido de una web, sea lo grande que sea.
+            Imagínate un sitio web de más de 10.000 páginas, ¿cómo podrías
+            cambiar los estilos en todas las páginas? Sin los archivos de CSS
+            sería mucho más engorroso. Los CSS aportan un mejor control en la
+            presentación de un sitio web que los elementos de HTML, por ejemplo
+          </li>
+          <li>
+            Más accesibles: Los CSS permiten modificar el formato de una página
+            web según sean las necesidades del usuario. Por ejemplo, personas
+            con deficiencias visuales
+          </li>
+          <li>
+            Más optimizados: El ancho de banda necesario para cargar páginas web
+            con CSS es mucho menor que el resto. La hoja de estilo se almacena
+            en cache y no tiene que descargar la página web una y otra vez. Los
+            CSS, además, reducen más del 50% el ancho de banda y los costes de
+            almacenamiento del sitio. Por lo tanto, estas páginas se cargan
+            mucho más rápido.
+          </li>
+          <li>
+            Multidispositivo: las hojas de estilo permiten configurar la página
+            para diferentes dispositivos, como son móviles, tables, lectores de
+            voz…
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <img
+      class="img"
+      src="https://www.miguelmanchego.com/wp-content/uploads/2015/03/portadazoomeffect.jpg"
+    />
+  </body>
+</html>
