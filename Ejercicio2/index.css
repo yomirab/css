@@ -1,0 +1,6 @@
+.color li {
+  list-style: nome;
+  padding: 10px;
+  background: #fabada;
+  color: #000000;
+}
