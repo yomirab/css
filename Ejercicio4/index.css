@@ -1,0 +1,64 @@
+.tabla {
+  border: 2px solid black;
+}
+
+.titulo {
+  text-align: center;
+}
+
+h2 {
+  color: #555454;
+  text-align: center;
+}
+
+.titulot {
+  color: grey;
+  text-align: center;
+}
+
+.color2 {
+  background-color: #dcdcdc;
+}
+
+.color3 {
+  background-color: #d3d3d3;
+}
+
+.color4 {
+  background-color: #c0c0c0;
+}
+
+.color5 {
+  background-color: #a9a9a9;
+}
+
+.color6 {
+  background-color: #8a8888;
+}
+
+.color7 {
+  background-color: #707070;
+}
+
+.color8 {
+  background-color: #504f4f;
+}
+
+.color9 {
+  background-color: rgb(48, 46, 46);
+  color: white;
+}
+
+.color10 {
+  background-color: black;
+  color: white;
+}
+
+div {
+  text-align: justify;
+}
+
+.pie {
+  color: grey;
+  text-align: center;
+}
